@@ -1,0 +1,15 @@
+//Paginacion
+.pages{
+    background-color: $platinum;
+    color: $raisin-black;
+    padding: 1.5rem;
+    &__item{
+        color: $eerie-black;
+    }
+ /*  @include media-breakpoint-down(md){
+        @include pagination-size(sm){
+            @content
+        }
+    }
+    */
+}

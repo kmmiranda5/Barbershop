@@ -1,0 +1,10 @@
+.nav{
+    background-color: $eerie-black;
+    text-decoration: none;
+    color: $white !important;  
+    height: 5rem;
+    &__img{
+        width: 100px;
+        height: auto;
+    }
+}

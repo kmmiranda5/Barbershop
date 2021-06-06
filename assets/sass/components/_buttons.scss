@@ -1,0 +1,28 @@
+.c-btn{  
+    border: 1px solid transparent;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 25px;
+
+    &:hover{
+        background-color: $light-gray;
+        border: 1px solid transparent;
+        
+    }
+
+    &:focus{
+        background-color:$nickel;
+        border: 1px solid transparent;
+        
+    }
+   
+    @include media-breakpoint-down(md) {
+        margin-left: 2rem; 
+       
+    }   
+
+}
+
+
+

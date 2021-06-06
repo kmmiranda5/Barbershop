@@ -1,0 +1,39 @@
+.hero {  
+        height: 700px; // desktop
+        background-image: url(../img/post-image.jpg);
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;   
+        text-align: center;  
+        @include media-breakpoint-down(md) {
+              // mobile
+            height: 500px;            
+        }        
+
+      &__title{
+        padding: 20%;
+        color: $platinum;       
+        font-family: $playfair;
+        font-style: $italic;
+        font-size: $xx-large;
+        font-weight: $font-black;      
+        @include media-breakpoint-down(md) {
+            width: 100%;  // mobile
+            padding-top: 10rem; 
+            font-size: $x-large;
+
+        }         
+        
+    } 
+    &__icon{
+        color: white;
+        display: block;
+        position: absolute;
+        top: 42rem;
+        left: 50%;
+        @include media-breakpoint-down(md) {
+            top: 30rem;
+        }
+    }  
+    
+}
